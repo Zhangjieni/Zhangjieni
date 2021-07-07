@@ -1,0 +1,210 @@
+body, div, ul,  li, h1, h2, tr, td {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(202 214 212);
+}
+a{
+    
+    text-decoration: none;
+    color: white;
+    display: block;
+    white-space: nowrap;
+}
+.header{
+    
+    margin: 10px;
+   
+}
+#img-1{
+    
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1000;
+}
+/* 导航栏 */
+.menu{
+    position: relative;
+    background-color: #21493a;
+    width: 100%;
+    height: 50px;
+    /* z-index: 9999; */
+}
+.logo{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 55px;
+    position: absolute;
+    padding: 0 60px 0 60px;
+}
+/* 导航栏 */
+nav{
+    padding-left:136px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 70px;
+    height: 50px;
+    width: 100%;
+}
+
+nav  ul li {
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+nav  a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: block;
+    line-height: 50px;
+    padding: 0 80px; 
+    z-index: 1;
+}
+
+nav a:hover {
+    color: white;
+    z-index: 1;
+    background-color: rgb(106, 173, 137);
+    z-index: 1000;
+}
+/* 下拉菜单 */
+nav ul li ul li {
+    float: none;
+    margin-top: 0px;
+    background-color: rgb(89, 155, 129);
+    z-index: 1000;
+}
+
+nav ul li ul li a:hover {
+    color: #123025;
+    background-color: rgb(83, 168, 134);
+    z-index: 1000;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    padding-left: 0;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+/* 网页内容 */
+.welcome{
+    position: absolute;
+    text-align: center;
+    font-weight: 200;
+    color: #38695e;;
+    top: 100px;
+    left:100px;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    z-index: 999;
+}
+/* 表格 */
+table{
+    border-spacing: 0px;
+   
+}
+.group-1{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+    width: 55%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #2b684c;
+    padding: 1px;
+    background-color: rgba(158, 211, 191,0.4);
+    border-radius: 6px;
+    z-index: 999;
+}
+.text{
+    padding: 15px 30px;
+    font-size:medium;
+    color: #307a4e;;
+    font-weight: bold;
+    font-family: Comic Sans MS;
+
+}
+/* 表单设置 */
+.answer{
+    padding: 5px 160px;
+    text-align: left;
+}
+.answer li{
+    list-style-type: none;
+    text-align: left;
+    margin: 0% 0% 1em 1em;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 120%;
+    font-family: Comic Sans MS;
+    color: #307a4e;;
+}
+.answer .in{
+    display: inline-block;
+    width: 4em;
+}
+.answer li input{
+    margin-left: 5px;
+    border: 1px solid #307a4e;
+    background-color:  rgba(158, 211, 191,0.4);
+    border-radius: 2px;
+}
+/* .answer p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */
+.answer textarea{
+    border: 1px solid #307a4e;
+    background-color: rgba(158, 211, 191,0.4);
+}
+/* 提交按钮 */
+.group-2{
+    position: absolute;
+    top: 515px;
+    left: 580px;
+    z-index: 999;
+}
+.buttons{
+    text-align: center;
+    width: 100%;
+}
+.button{
+   
+    padding: 3px 30px;
+    border: 3px solid rgba(78, 131, 111, 0.4);
+    background: rgba(85, 201, 114, 0.7);
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 4px;
+}
+.button:hover{
+    background: rgba(43, 88, 61, 0.7);
+}
+/* 背景图片 */
+.b-img{
+    position: relative;
+}
+.b-img img{
+    width: 1280px;
+    height: 580px;
+}

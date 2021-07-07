@@ -1,0 +1,138 @@
+body{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgba(87, 156, 107, 0.5);
+}
+.header{
+    
+    margin: 10px;
+   
+}
+#img-1{
+    
+    width: 200px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    z-index: 1;
+}
+/* 导航栏 */
+.menu{
+    position: relative;
+    background-color: #21493a;
+    width: 100%;
+    height: 50px;
+    /* z-index: 9999; */
+}
+.logo{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 55px;
+    position: absolute;
+    padding: 0 60px 0 60px;
+}
+/* 导航栏 */
+nav{
+    padding-left:136px;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 70px;
+    height: 50px;
+    width: 100%;
+}
+
+nav  ul li {
+    line-height: 45px;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+nav  a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    display: block;
+    line-height: 50px;
+    padding: 0 80px; 
+    z-index: 1;
+}
+
+nav a:hover {
+    color: white;
+    z-index: 1;
+    background-color: rgb(106, 173, 137);
+    z-index: 1000;
+}
+/* 下拉菜单 */
+nav ul li ul li {
+    float: none;
+    margin-top: 0px;
+    background-color: rgb(89, 155, 129);
+    z-index: 1000;
+}
+
+nav ul li ul li a:hover {
+    color: #123025;
+    background-color: rgb(83, 168, 134);
+    z-index: 1000;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+    padding-left: 0;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+/* 网页内容 */
+.con-1{
+    position: relative;
+    width: 1236px;
+    height: 100%;
+}
+.con-1 h3{ 
+    position: absolute;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    top: 140px;
+    left:220px;
+    font-size: 4.5em;
+    font-weight: bold;
+}
+.con-1 a{
+    position: absolute;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    
+    font-size: 2em;
+    text-decoration: none;
+}
+#a1{
+    top: 300px;
+    left:410px;
+}
+#a2{
+    top: 350px;
+    left:470px;
+}
+.con-1 a:hover{
+    background-color: #73af8e;
+}
+.con-1 img{
+    
+    width: 1280px;
+    height: 580px;
+}
