@@ -63,7 +63,8 @@ nav  a {
     font-size: large;
     display: block;
     line-height: 50px;
-    padding: 0 80px; 
+    width: 232px;
+    text-align: center;
     z-index: 1;
 }
 
@@ -128,7 +129,7 @@ h3.t{
 /* 日志展示 */
 .t-blog{
     position: absolute;
-    margin: 0px 66px;
+    margin: 0px 50px;
     padding: 20px;
     background-color: rgb(236 236 236 / 20%);
     top: 180px;
@@ -248,6 +249,6 @@ a.name{
     top: 63px;
 }
 .b-img img{
-    width: 1280px;
+    width: 1263px;
     height: 1500px;
 }
